@@ -57,7 +57,11 @@ my_dict = {4: '4', 5: '5', 6: '6', 7: '7', 8: '8', 9: '9', 'nested_key': {'key':
 
 # Найти топ 3 слова в тексте.
 text = 'John is the son of John second. Second son of John second is William second.'
+# text = text.lower()
+# text = text.replace('.', '')
+# my_list = text.split()
 my_list = text.lower().replace('.', '').split()
+
 print(my_list)
 # print('f' == 'F')
 count_dict = {}
