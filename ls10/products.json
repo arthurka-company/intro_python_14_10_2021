@@ -1,0 +1,7 @@
+[
+  {"id": "134", "name": "Good Toy", "brand": "Chico", "price": 180.0, "image": "catalog/products/134_toy.jpg"},
+  {"id": "155", "name": "Car asorti", "brand": "Matchbox", "price": 120.0, "image": "catalog/products/155.jpeg"},
+  {"id": "180", "name": "Car Ford", "brand": "Matchbox", "price": 84.0, "image": "catalog/products/180__name.jpeg"},
+  {"id": "200", "name": "Lego 1", "brand": "Lego", "price": 392.0, "image": "catalog/products/200.jpg"},
+  {"id": "250", "name": "Lego 2", "brand": "Lego", "price": 489.99999999999994, "image": "catalog/products/250.jpeg"}
+]
