@@ -70,3 +70,5 @@ B = create_triangle()
 
 print(A)
 print(B)
+
+a = int('45')
