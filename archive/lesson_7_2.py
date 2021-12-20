@@ -35,5 +35,5 @@ import os
 #     print(name)
 print(os.listdir())
 print(os.path.isfile('lesson_7.py'))
-print(os.path.isdir('/home/tarchanskyj/projects/personal/hillel/intro_python_14_10_2021'))
+print(os.path.isdir('/'))
 print(os.path.basename('http://domen.com//home/tarchanskyj/projects/personal/hillel/intro_python_14_10_2021/file.txt'))

@@ -26,7 +26,7 @@ def create_folder_and_files(root_folder, person_data):
     create_person_file(person_data, person_folder)
 
 
-full_path = '/home/tarchanskyj/projects/personal/hillel/intro_python_14_10_2021/names.txt'
+full_path = '/names.txt'
 result = get_list_of_persons(full_path)
 print(result)
 for person in result:

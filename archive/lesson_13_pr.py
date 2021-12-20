@@ -41,7 +41,7 @@ if __name__ == '__main__':
     # print(c)
     print(len(category_links))
 
-    with open('category_links.pkl', 'wb') as f:
+    with open('../category_links.pkl', 'wb') as f:
         pickle.dump(category_links, f)
 
 

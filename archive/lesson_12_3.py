@@ -53,8 +53,8 @@ if __name__ == '__main__':
     albums = get_albums(2)
     print(albums)
     # Проверка существует ли папка, в которую сохранить результат, если папки нет, то она будет создана
-    if not os.path.isdir('photos'):
-        os.makedirs('photos')
+    if not os.path.isdir('../photos'):
+        os.makedirs('../photos')
 
     for album in albums:
         # Проходимся по массиву альбомов и скачиваем массив фотографий альбома

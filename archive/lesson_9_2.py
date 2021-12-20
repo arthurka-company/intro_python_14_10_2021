@@ -86,10 +86,10 @@ def get_files_from_dir(base_dir: str, full_path: bool = True) -> list:
 # name
 
 
-print(get_files_from_dir('/home/tarchanskyj/projects/personal/hillel/intro_python_14_10_2021'))
+print(get_files_from_dir('/'))
 
 
-for file_name in get_files_from_dir('/home/tarchanskyj/projects/personal/hillel/intro_python_14_10_2021', full_path=False):
+for file_name in get_files_from_dir('/', full_path=False):
     print(file_name)
 
 20:58
